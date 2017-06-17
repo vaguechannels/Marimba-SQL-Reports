@@ -1,8 +1,17 @@
 /*
 
+This Report 
+    will generate compliance numbers that are useful to track the status of any policy based deployments.
+    can be set automated email report via Report Center on a schedule.
+    
+Variables:
+Package/App/Deployment Name - Name of the Package / Application Name / Deployment Name
+CHANNEL URL - Full Channel Url which is involved in this deployment.
+TARGET FQDN - This can either be a AD Group or OU that has the policy associated for the deployment.
 
+For Multiple Channel's or Targets, we can reuse the SQL block within PIVOT.
 
-
+Try it out.
 
 */
 
